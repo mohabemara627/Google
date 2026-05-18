@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="Images/google-icon.png">
+    <script src="https://kit.fontawesome.com/c3f73a8354.js" crossorigin="anonymous"></script>
+</head>
+<body class="google">
+
+<div class="google-logo">
+        <h1>Google</h1>
+    </div>
+
+<form class="google-search" action="https://www.google.com/search" method="get">
+    <div class="search-container">
+        <input type="text" name="q" placeholder=" ">
+        <button class="voice-icon"color= white type="button" title="Search by voice"><i class="fa-solid fa-microphone"></i></button>
+        <button class="image-icon" type="button" title="Search by image"><i class="fa-solid fa-image"></i></button>
+        <input type="file" id="file-input" accept="image/*,.pdf,.doc,.docx" style="display: none;">
+        <button class="upload-icon" type="button" title="Upload image or file" onclick="document.getElementById('file-input').click();"><i class="fa-solid fa-file-circle-plus"></i></button>
+    </div>
+
+    <div class="google-buttons">
+        <button type="submit" name="btnG">Google Search</button>
+        <button type="submit" name="btnI">I'm Feeling Lucky</button>
+    </div>
+</form>
+
+<h1 id="Gmail"> Gmail</h1>
+<h1 id="Images"> Images</h1>
+
+<img src="Images/Google-apps.png" title="Google apps" alt="Google Apps" class="google-apps">
+<img src="Images/pfp.png" title="Google Account
+User
+user@gmail.com" alt="Google Profile" class="pfp">
+<img src="Images/shi.png" class="bottom">
+
+
+</body>
+</html>
